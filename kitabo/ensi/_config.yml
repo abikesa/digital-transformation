@@ -8,7 +8,7 @@
 title                       : Digital-Transformation # The title of the book. Will be placed in the left navbar.
 author                      :  # The author of the book
 copyright                   : "2025"  # Copyright year to be placed in the footer
-logo                        : https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/2560px-GitHub_Invertocat_Logo.svg.png # Path to the logo image file
+logo                        : https://nypost.com/wp-content/uploads/sites/2/2025/03/2010-thiam-said-sees-future-99709070.jpg?resize=2048,1345&quality=75&strip=all # Path to the logo image file
 email                       : "abikesa.sh@gmail.com"
 exclude_patterns            : ["LICENSE.md"]  # Patterns to skip when building the book. Can be glob-style (for example "*skip.ipynb")
 
