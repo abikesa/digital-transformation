@@ -407,6 +407,99 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="prometheus">
 <span id="id1"></span><h1>Prometheus<a class="headerlink" href="#prometheus" title="Permalink to this heading">#</a></h1>
+<style>
+  /* Apply styles only to elements with the custom class */
+  .custom-details summary {
+    list-style: none;  /* Remove default dropdown triangle */
+    cursor: pointer;
+    font-weight: normal; /* Normal text weight */
+    display: inline-block;
+    padding: 5px 15px;
+    border: 2px dotted black; /* Dotted circle */
+    border-radius: 20px; /* Make it rounded */
+    text-align: center;
+    transition: color 0.3s ease-in-out; /* Smooth transition */
+  }
+
+  .custom-details summary:hover {
+    color: lightgray; /* Change text color on hover */
+  }
+
+  .custom-details summary::-webkit-details-marker {
+    display: none; /* Remove marker in WebKit (Chrome, Safari) */
+  }
+</style>
+<details class="custom-details">
+  <summary>+ Expand</summary>
+  <iframe src="../pdfs/mozart.pdf" width="100%" height="1000px" style="borders:none"></iframe>
+  <blockquote style="border-left: 4px solid #ccc; padding-left: 10px; color: #555;">
+     <em>
+<details>
+    <summary></summary>
+  <blockquote style="border-left: 4px solid #ccc; padding-left: 10px; color: #555;">
+     <em>
+      <ul>
+        <li>What makes for a suitable problem for AI (Demis Hassabis, Nobel Lecture)?
+          <ul>
+            <li>Space: Massive combinatorial search space</li>
+            <li>Function: Clear objective function (metric) to optimize against</li>
+            <li>Time: Either lots of data and/or an accurate and efficient simulator</li>
+          </ul>
+        </li>
+        <li>Guess what else fits the bill (Yours truly, amateur philosopher)?
+          <ul>
+            <li><strong>Space</strong>
+              <ol>
+                <li>Intestines/villi</li>
+                <li>Lungs/bronchioles</li>
+                <li>Capillary trees</li>
+                <li>Network of lymphatics</li>
+                <li>Dendrites in neurons</li>
+                <li>Tree branches</li>
+              </ol>
+            </li>
+            <li><strong>Function</strong>
+              <ol>
+                <li>Energy</li>
+                <li>Aerobic respiration</li>
+                <li>Delivery to "last mile" (minimize distance)</li>
+                <li>Response time (minimize)</li>
+                <li>Information</li>
+                <li>Exposure to sunlight for photosynthesis</li>
+              </ol>
+            </li>
+            <li><strong>Time</strong>
+              <ol>
+                <li>Nourishment</li>
+                <li>Gaseous exchange</li>
+                <li>Oxygen & Nutrients (Carbon dioxide & "Waste")</li>
+                <li>Surveillance for antigens</li>
+                <li>Coherence of functions</li>
+                <li>Water and nutrients from soil</li>
+              </ol>
+            </li>
+          </ul>
+        </li>
+      </ul>
+     </em>
+  </blockquote>
+</details>
+    </em>
+   <p>--<a href="../pdfs/thesis.pdf"> Nobel Prize in Chemistry, 2024</a></p>
+ </blockquote>
+</details>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const details = document.querySelector(".custom-details");
+    const summary = details.querySelector("summary");
+
+    details.addEventListener("toggle", function() {
+      summary.textContent = details.open ? "- Collapse" : "+ Expand";
+    });
+  });
+</script>
+<p></p>
+<p></p>
 <figure class="align-default" id="id2">
 <a class="reference internal image-reference" href="https://www.ascm.org/globalassets/00_blog/images/red-queen-blog-header.jpg"><img alt="https://www.ascm.org/globalassets/00_blog/images/red-queen-blog-header.jpg" src="https://www.ascm.org/globalassets/00_blog/images/red-queen-blog-header.jpg" style="width: 70%;" /></a>
 <figcaption>
